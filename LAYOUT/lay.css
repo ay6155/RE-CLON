@@ -1,0 +1,374 @@
+/* ### color  */
+#f1f1f1
+font-size-17
+font-family:segoe ui aria sans-serif
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+h1,h2 h3, h4, h5, h6{
+    font-family:'Segoe UI', Arial, sans-serif
+}
+html{
+    -webkit-text-size-adjust: 100%;
+}
+body{
+    font-family: verdana, sans-serif;
+    font-size:15px;
+    line-height: 1.5;
+}
+
+w3-container{
+   width:100%;
+    padding-left:16px;
+    padding-right:16px;
+    background:#f1f1f1;
+}
+
+.header-page{
+    height: 46px;
+    line-height:40px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding:10px;
+    font-family:verdana, sans-serif;
+}
+
+.header-page a{
+    text-decoration:none;
+    font-family:fontawesome;
+    line-height:1.5;
+    color:#555555;
+    display:block;
+    font-size:36px;
+    letter-spacing:3px;
+    overflow:auto;
+}
+
+.header-page a .mid{
+     color:#4caf50;
+ }
+
+ .header-page p{
+     letter-spacing:4px;
+ }
+
+ .tutorial-sec{
+     width:100%;
+     background:#5f5f5f;
+     height:44px;
+    
+ }
+ .tu-lay{
+     display:flex;
+     justify-content:space-between;
+     align-items: stretch;
+     gap:15px;
+ }
+  .tut-layout{
+    display:flex;
+     justify-content:space-between;
+     align-items:stretch;
+     
+    width:50%;
+    
+    background:#4caf50;
+    height: 44px;
+    font-size:17px;
+  overflow: hidden;
+ }
+   
+ .tut-layout a{
+     text-decoration:none;
+     color:#ffffff;
+ }
+    
+ 
+
+ .tutorial-sec a.active{
+     background:#4caf50;
+     color:#ffffff;
+     
+ }
+ 
+
+ .tutorial-sec .two-sec{
+     display:flex;
+     justify-content:flex-start;
+     align-items:stretch;
+     width:30%;
+     
+     
+     font-size:17px;
+     overflow:hidden;
+     
+     height:44px;
+ }
+ 
+     
+ 
+ .tutorial-sec a{
+    display: inline-block;
+    padding:10px 15px 9px 10px !important;
+    border-bottom:none;
+    text-decoration:none;
+ }
+  .tutorial-sec .two-blocks{
+    background:#4caf50;
+    width:110px;
+    height:44px;
+    overflow: hidden;
+    display:inline-block;
+  }
+  .fa{
+      font-size: 30px;
+      transform:translate(0,0);
+  }
+.fa-caret-down,
+.fa-caret-up{
+    width:0;
+    height:0;
+    display:inline-block;
+    border:5px solid transparent;
+}
+    
+    .fa-caret-up{
+        border-bottom-color:#ffffff;
+    }
+
+
+    .aside-container{
+        width:220px;
+        z-index: 9;
+        display:block !important;
+        
+    }
+
+    .aside-lay{
+      position:fixed;
+      top:0;
+       padding-bottom:0;
+       height:100%;
+       width:220px;
+       background-color:transparent;
+    }
+    .aside-wrap{
+        height:100%;
+        width:100%;
+        overflow-y:scroll;
+        padding-top:20px;
+        background-color:#f1f1f1;
+    }
+    .aside-wrap a{
+         display:block;
+        color:#000000;
+        text-decoration:none;
+        padding:2px 1px 1px 16px;
+        font-size:15px;
+    }
+    .aside-wrap h2{
+        font-size:20px;
+    }
+       .main-wrapper{
+           /* width:60%; */
+           overflow:hidden;
+           padding-left:15rem;
+       }
+
+       .white-block{
+        margin-top:30px; 
+        padding:20px;  
+       }
+
+       .main-wrapper h1{
+           margin:10px 0px;
+           font-weight:400;
+       }
+
+       .main-wrapper .chapter{
+           width:auto;
+           display:flex;
+           flex-direction:row;
+           justify-content: space-between;
+           margin-bottom:8px;
+       }
+       .chapter:hover{
+           text-decoration:underline;
+           
+       }
+       .main-wrapper .previous{
+           color:#4caf50;
+           font-size:20px;
+       }
+       .main-wrapper .next{
+           color:#4caf50;
+           font-size:20px;
+       }
+
+       .tut-intro{
+          min-height:132px;
+          width:auto;
+          position:relative;
+       }
+       .tut-intro img{
+           float:left;
+           margin-right:18px;
+           margin-bottom:20px;
+       }
+       .tut-into p{
+           font-size:17px;
+       }
+       hr{
+           height:0;
+            border:0;
+           border-top:1px solid #eee;
+           margin:20px 0;
+       }
+
+       .main-wrapper h2{
+           font-weight: 400;
+       }
+
+       .htm-example{
+          background:#eee; 
+          padding:0.01px 16px;
+          padding-bottom:26px;
+          margin:20px 0;
+          width:auto;
+          position:relative;
+       }
+       .htm-example h2{
+        font-size:20px;
+        color:#000;
+       }
+       .exp-explain{
+           background-color: #fff;
+           font-size:16px;
+           line-height:1.4;
+           padding:8px 12px;
+           font-family:"consolas" "courier new";
+           margin-bottom:16px;
+       }
+       .htm-example .high{
+           color:blue;
+       }
+       .htm-example .red-w{
+           color:red;
+       }
+       .htm-example .hight{
+           color:brown;
+       }
+       
+       .htm-example .btn{
+           padding:10px 8px;
+           background-color: #4caf50;
+           color:#ffffff;
+           margin-bottom:16px;
+           text-decoration: none;
+       }
+
+       .bord{
+           padding:8px 2px;
+        border:1px solid #eee;
+        margin-bottom: 18px;
+       }
+       .bord img{
+           float:left;
+           margin-top:10px;
+           padding-right:10px;
+       }
+       
+      a{
+          color:inherit;
+      }
+      .main-wrapper a:-webkit-any-link{
+          cursor:pointer;
+          /* text-decoration: underline; */
+      }
+      h2{
+          font-size:30px;
+      }
+
+      .main-wrapper a:hover{
+          color:#4caf50;
+      }
+
+      .exam-certi{
+          display:flex;
+          justify-content:center;
+          align-content:center;
+          gap:30px;
+      }
+      .exam-certi .img-wra{
+          margin-top:50px;
+      }
+      
+     .btn{
+        padding:10px 8px;
+        background-color: #4caf50;
+        color:#ffffff;
+        margin-bottom:16px;
+        text-decoration: none;
+     }
+     .btn:hover{
+        background:#ffffff;
+        color:#4caf50; 
+        transition:1s background 1s color;
+     }
+
+     .side-section{
+      padding-top:10%;
+      text-align:center;
+     }
+
+     .side-section h3{
+         font-size:18px;
+         font-weight:400;
+         line-height:1.5;
+         margin-bottom:10px;
+     }
+    
+     .err-pag{
+       display:flex;
+       justify-content: space-between; 
+       gap:10px; 
+     }
+     .err-pag .e-rr{
+         font-size:12px;
+        
+     }
+     .err-pag .e-rr a{
+        text-decoration:none;
+     }
+
+    .top-tuto{
+        display:flex;
+        flex-direction:row ;
+        justify-content: space-between;
+        text-align:center;
+    }
+
+    .top-tuto h2{
+        font-size:20px;
+        margin:20px;
+    }
+
+    .top-tuto .tut-all p a{
+        display:block;
+        font-size:12px;
+        font-family:"verdana" "sans-serif";
+        text-decoration:none;
+    }
+
+    .footer{
+        font-size:12px;
+        opacity: 0.6;
+        text-align:center;
+    }
+    .footer img{
+        border:none;
+    }
